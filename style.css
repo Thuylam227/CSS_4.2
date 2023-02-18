@@ -1,0 +1,630 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/*header*/
+.NavbarLabel {
+    width: 300px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+
+
+}
+
+.navbaritem {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    column-gap: 50px;
+    padding-right: 30px;
+    align-items: center;
+
+}
+
+.nav-item a.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    font-size: large;
+    transition: all 0.2s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-item a.nav-link:hover {
+    color: #00AF80;
+    box-shadow: 0 2rem 3rem rgba(212, 175, 175, 0.70);
+    transition: 0.3s;
+}
+
+/*banner*/
+.b-one {
+    margin-top: 30px;
+}
+
+.b-two {
+    color: #00A99C;
+    font-size: 30px;
+}
+
+.btn {
+    border-color: #dccbcb;
+    background-color: #00A99C;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50px;
+    padding: 12px 50px;
+    margin: 20px 0 25px 0px;
+}
+
+.button-one {
+    background-color: #00A99C;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50px;
+    padding: 12px 50px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    transition: all 0.3s;
+    color: #00A99C;
+}
+
+.bg-image {
+    background: rgba(0, 0, 0, 0.33) url(bgimg.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.a-two {
+    color: #00A99C;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: medium;
+}
+
+.fw-bold {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.banner {
+    width: 35%;
+    margin: 0 0 20px 20px;
+    padding: 100px 100px;
+}
+
+/*grid area*/
+.flex-wrap {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
+.img-fluid {
+    width: 550px;
+    height: 150%;
+    padding-right: 30px;
+    border-radius: 8px;
+
+}
+
+
+.about-area {
+    background-color: #f5f5f5;
+}
+
+.About-script {
+    width: 80%;
+    padding: 0 0 0 50px;
+
+}
+
+.about-header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+}
+
+.mt-5 {
+    padding: 10px 0 50px 0px;
+    font-size: medium;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*service area*/
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+.card-one {
+    width: 30%;
+}
+
+.service-area-one {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 60px;
+}
+
+.card-text-services {
+    text-align: justify;
+    color: #fff;
+}
+
+.card-title {
+    color: #00A99C;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service-header {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+.service-area {
+    margin: 100px 10px 30px 0px;
+    padding: 30px 5px 30px 5px;
+    background: rgba(0, 0, 0, 0.8) url(backgroundservices.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50%;
+}
+
+/*menu area*/
+.bg-color-one {
+    background-color: #f5f5f5;
+}
+
+.menu-one img {
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    padding-right: 20px;
+}
+
+.title-top {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 70px;
+    margin: 70px 0 30px 0;
+    padding: 30px 70px;
+}
+
+.menu-1 {
+    width: 30%;
+    display: flex;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.line {
+    border-bottom: solid 1px #000;
+    width: 25%;
+}
+
+.h4 {
+    font-size: x-large;
+}
+
+/* time area*/
+
+.t-color {
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.5) url("openingimg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text-center {
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+
+.t-two {
+    color: rgb(22, 170, 157);
+}
+
+.time-1 {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.time-2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.time-3 {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.time-4 {
+    margin-top: 50px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.time-5 {
+    padding-top: 0px;
+    padding-bottom: 100px;
+}
+
+/*gallery area*/
+.img-fluid-rounded {
+    width: 280px;
+    height: 250px;
+    border-radius: 10px
+}
+
+.ga-bg {
+    background-color: #f5f5f5;
+    margin: 30px 0 50px 0;
+}
+
+.ga-header {
+    text-align: center;
+    padding-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.gal-big {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 20px 50px 20px;
+    column-gap: 10px;
+    row-gap: 30px;
+}
+
+/*blog area*/
+.bn-image {
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.5) url("blog1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 100%;
+}
+
+.blog-area {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-content: space-between;
+    padding: 50px 50px 50px 50px;
+}
+.bl-two:hover {
+    background: rgba(0, 0, 0, 0.50) url(blog2.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+}
+
+.ms-5 {
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.bl {
+    margin-left: 10px;
+}
+
+.bl-two {
+    width: 90%;
+    height: 80%;
+    border: 1px solid rgb(134, 131, 131);
+    margin-top: 30px;
+    padding: 30px 0px 30px 0px;
+    text-align: start;
+
+}
+
+.mb-3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.bn-three {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 70px;
+    word-spacing: 6px;
+}
+
+.mt-4 {
+    font-weight: 100;
+    font-size: 17px;
+}
+/*review-area*/
+
+.r-header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+}
+
+.h-one {
+    width: 8%;
+    color: grey;
+}
+
+.r-bg {
+    background-color: #f5f5f5;
+    padding-bottom: 50px;
+}
+
+.review {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.borderr {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: -20px 20px 14px 0px #f0ebeb;
+    padding-top: 50px;
+    margin-left: 20px;
+    width: 95%;
+}
+
+.w-25 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.mx-auto {
+    margin-left: 100px !important;
+}
+
+.card-body {
+    text-align: center;
+
+}
+
+p.card-text.mt-8 {
+    color: #212529;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.fa-solid {
+    color: rgb(230, 230, 21);
+}
+
+h4.card-title.fw-bold.r-two {
+    font-weight: bold;
+
+}
+
+p.review-name {
+    color: #00A99C;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+/*chef-area*/
+.chefs-bg {
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.50) url("chef.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 100%;
+}
+
+.c-two text-center {
+    width: 50%;
+}
+
+.chef-img {
+    width: 550px;
+    height: 550px;
+    border-radius: 10px;
+}
+
+.chef-one {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 30px 30px;
+    padding-right: 20px;
+}
+
+.chef-two {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 30px 30px;
+    padding-left: 30px;
+}
+
+.chef-three {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 30px 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+
+.mb-2 {
+    color: #00A99C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* contact area */
+.con-bg {
+    background-color: #000;
+    height: max-content;
+}
+
+.pb-5 {
+    text-align: center;
+}
+
+.my-form {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#name,
+#email,
+#subject {
+    height: auto;
+    width: 400px;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 16px;
+    margin: 10px;
+}
+
+#comments {
+    height: 5px;
+    width: 500px;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 16px;
+    margin: 10px;
+}
+
+.my-form {
+    text-align: left;
+}
+
+/* footer area */
+.footer {
+    background: rgba(0, 0, 0, 0.50) url("101.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 100%;
+    padding-top: 0%;
+}
+
+.end {
+    background-color: #000;
+    height: auto;
+}
+
+.g-5 {
+    display: flex;
+    align-content: start;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.mb-3 {
+    font-size: 30px;
+}
+
+.fa-location-dot {
+    font-size: 30px;
+}
+
+/*end*/
+.end-text-white {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    align-items: center;
+}
+
+.en-two {
+    color: #f5f5f5;
+    padding-right: 150px;
+}
+
+.en-one {
+    width: 50%;
+    height: auto;
+}
+
+.fa-brands {
+    color: #00a974;
+    font-size: 50px;
+    padding-right: 20px;
+}
+
+.footer-logo {
+    width: 110%;
+    align-items: flex-start;
+}
